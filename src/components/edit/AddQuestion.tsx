@@ -76,7 +76,7 @@ function AddQuestion({ teamId }: Props): ReactElement {
                             autoFocus
                             required
                             type="text"
-                            minLength={5}
+                            minLength={2}
                             disabled={saving}
                         />
                         <TextField
@@ -91,7 +91,7 @@ function AddQuestion({ teamId }: Props): ReactElement {
                             }
                             required
                             type="text"
-                            minLength={3}
+                            minLength={2}
                             disabled={saving}
                         />
                         <TextField
@@ -121,7 +121,7 @@ function AddQuestion({ teamId }: Props): ReactElement {
                             }
                             required
                             type="text"
-                            minLength={3}
+                            minLength={2}
                             disabled={saving}
                         />
 
